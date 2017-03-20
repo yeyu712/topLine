@@ -3,10 +3,11 @@
 
 部署到自己的应用中，首先你必须.
 
-1. 将modelClass导入到你的Database中. 
-2. 将fs、weibo模块添加到你的应用中. 
-3. 将widget包文件->的config文件中的id配置为你自己的应用ID. 
-4. 将widget包文件->的config文件中的weibo配置为你自己应用的对应key等信息. 
+1. 将modelClass导入到你的Database中。
+2. 将fs、weibo模块添加到你的应用中。
+3. 将widget包文件->的config文件中的id配置为你自己的应用ID。
+4. 将widget包文件->的config文件中的weibo配置为你自己应用的对应key等信息。
+5. 将api.js中的$api.ajax中appId、key换成你自己的应用对应值。
 
                 topLine/<br />
                 ├── classJson/
@@ -17,3 +18,5 @@
                 │   ├── interest.json              兴趣爱好数据
                 │   └── modelClass.json            class表结构
                 └── widget                      项目源码包
+
+导入MCM class表参考：（http://community.apicloud.com/bbs/forum.php?mod=viewthread&tid=291）
